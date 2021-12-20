@@ -1,2 +1,2 @@
-# Unity-Event-System-Width-Scriptable-Objects
+# Unity Event System Width Scriptable Objects
  
