@@ -5,7 +5,7 @@ namespace Plugins.Event_System_SO.Scripts
 {
     public abstract class GameEventSO<T> : ScriptableObject
     {
-        private UnityEvent<T> _onRaiseEvent;
+        private readonly UnityEvent<T> _onRaiseEvent = new UnityEvent<T>();
 
         public void Invoke(T value) => _onRaiseEvent?.Invoke(value);
 
