@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ac16058865f0034b89e962a405aca65, type: 3}
-  m_Name: String Game Event SO
+  m_Name: String Event SO
   m_EditorClassIdentifier: 

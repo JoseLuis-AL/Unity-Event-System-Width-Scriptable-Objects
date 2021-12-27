@@ -3,8 +3,8 @@ using UnityEngine.Events;
 
 namespace Plugins.Event_System_SO.Scripts
 {
-    [CreateAssetMenu(menuName = "Game Events SO/Void Game Event")]
-    public class VoidGameEventSO : ScriptableObject
+    [CreateAssetMenu(menuName = "Events SO/Void Event")]
+    public class VoidEventSO : ScriptableObject
     {
         private readonly UnityEvent _onRaiseEvent = new UnityEvent();
 

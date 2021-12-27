@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f881544f89f5374981b1334344672b2, type: 3}
-  m_Name: Int Game Event SO
+  m_Script: {fileID: 11500000, guid: b7c9ceb1ccc93e447ac134f545fd53b9, type: 3}
+  m_Name: Bool Event SO
   m_EditorClassIdentifier: 

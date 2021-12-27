@@ -8,9 +8,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/DEMO/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/Scripts/Base Events/StringGameEventSO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/Scripts/VoidGameEventSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/DEMO/Scripts/DemoUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/Scripts/Base Events/StringEventSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/Scripts/VoidEventSO.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="22XBO5kAfOKh5tRvsYLOtlQ5742" />
   <component name="ProjectViewState">
@@ -56,6 +56,7 @@
       <updated>1639974053640</updated>
       <workItem from="1639974068345" duration="6836000" />
       <workItem from="1640507027231" duration="789000" />
+      <workItem from="1640548140497" duration="2255000" />
     </task>
     <servers />
   </component>
