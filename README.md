@@ -16,7 +16,7 @@ Github: [The Brick Braker Github](https://github.com/JoseLuis-AL/The-brick-brake
 ## Observer Pattern
 Is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
-Please see: [Observer (refactoring.guru)](https://refactoring.guru/design-patterns/observer)for a full explanation.
+Please see: [Observer (refactoring.guru)](https://refactoring.guru/design-patterns/observer) for a full explanation.
 
 ## Content
 By default the package has five predefined events for data types: `void`, `int`, `float`, `bool`, `string`.
