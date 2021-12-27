@@ -72,16 +72,16 @@ intEvent.Invoke(value);
 ```
 
 ### Create the event asset
-1. You can create event objects using the "Event SO" submenu in the create menu.
+1. You can create event objects using the "Event SO" submenu in the create menu.  
 ![](Images/Assets%20Events%20SO.png)
 
 
 1. Assign the asset in the fields of the component that listens or invokes. You can also invoke the event using a button.
 
-Invoke the event using a button.
+Invoke the event using a button.  
 ![](Images/Int%20Event%20BTN.png)
 
-Assign the assets to a script.
+Assign the assets to a script.  
 ![](Images/Demo%20UI.png)
 
 ## How to create a new type of event?
@@ -109,7 +109,7 @@ public class GameObjectEventSO : EventSO<GameObject>
 }
 ```
 
-5. Now we can create our asset events that send GameObjects to listeners. We can also use buttons to invoke the events!
+5. Now we can create our asset events that send GameObjects to listeners. We can also use buttons to invoke the events!  
 ![](Images/GameObject%20Event%20BTN.png)
 
 ## Dependencies
