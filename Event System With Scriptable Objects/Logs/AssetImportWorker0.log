@@ -139,3 +139,35 @@ Received Import Request.
 Start importing Assets/Plugins/Event System SO/Scripts/VoidEventSO.cs using Guid(1e69ed23e1c9ec4498f072a188adf7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3a36180e9cf04f6bcb5ade0679f447') in 0.067805 seconds 
   Import took 0.075206 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 838.656397 seconds.
+  path: Assets/Plugins/Event System SO/Scripts/Base Events/BoolEventSO.cs
+  artifactKey: Guid(b7c9ceb1ccc93e447ac134f545fd53b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Event System SO/Scripts/Base Events/BoolEventSO.cs using Guid(b7c9ceb1ccc93e447ac134f545fd53b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b7a9d91b43026570a6a5b06557dd59') in 0.008684 seconds 
+  Import took 0.012293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.493318 seconds.
+  path: Assets/Plugins/Event System SO/Scripts/Base Events/FloatEventSO.cs
+  artifactKey: Guid(b94e40649bc43e94c9d02ef0f784f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Event System SO/Scripts/Base Events/FloatEventSO.cs using Guid(b94e40649bc43e94c9d02ef0f784f3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f3f938486a5c5d529af5bbb3fe56d3') in 0.009897 seconds 
+  Import took 0.013359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.553306 seconds.
+  path: Assets/Plugins/Event System SO/Scripts/Base Events/IntEventSO.cs
+  artifactKey: Guid(1f881544f89f5374981b1334344672b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Event System SO/Scripts/Base Events/IntEventSO.cs using Guid(1f881544f89f5374981b1334344672b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ccfa169edcb245233b243f9f3e72d1') in 0.007905 seconds 
+  Import took 0.011082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.636411 seconds.
+  path: Assets/Plugins/Event System SO/Scripts/Base Events/StringEventSO.cs
+  artifactKey: Guid(4ac16058865f0034b89e962a405aca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Event System SO/Scripts/Base Events/StringEventSO.cs using Guid(4ac16058865f0034b89e962a405aca65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b4f74587346dd9c08e2be8163f5219') in 0.009610 seconds 
+  Import took 0.013338 seconds .
+
