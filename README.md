@@ -116,4 +116,4 @@ public class GameObjectEventSO : EventSO<GameObject>
 - TextMeshPro
 
 ## Images
-![](Images/Demo%20Scene.png.png)
+![](Images/Demo%20Scene.png)
