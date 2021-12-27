@@ -1,8 +1,8 @@
 # Unity Event System Width Scriptable Objects
 ---
 
-Link Demo: [Event System With Scriptable Objects (Unity Play)]([DEMO: Event System With Scriptable Objects - Unity Play](https://play.unity.com/mg/other/demo-event-system-with-scriptable-objects))
-Link to the project that implements this package: [The Brick Braker (Unity Play)]([The Brick Braker - Unity Play](https://play.unity.com/mg/other/the-brick-braker))
+Link Demo: [Event System With Scriptable Objects (Unity Play)]([DEMO: Event System With Scriptable Objects - Unity Play](https://play.unity.com/mg/other/demo-event-system-with-scriptable-objects))  
+Link to the project that implements this package: [The Brick Braker (Unity Play)]([The Brick Braker - Unity Play](https://play.unity.com/mg/other/the-brick-braker))  
 Github: [The Brick Braker Github]([JoseLuis-AL/The-brick-braker (github.com)](https://github.com/JoseLuis-AL/The-brick-braker))
 
 #### Blue Voxel Inside Team
