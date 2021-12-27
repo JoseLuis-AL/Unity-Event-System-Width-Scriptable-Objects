@@ -79,10 +79,10 @@ intEvent.Invoke(value);
 1. Assign the asset in the fields of the component that listens or invokes. You can also invoke the event using a button.
 
 Invoke the event using a button.
-![[Int Event BTN.png]]
+![](Images/Int%20Event%20BTN.png)
 
 Assign the assets to a script.
-![[Demo UI.png]]
+![](Images/Demo%20UI.png)
 
 ## How to create a new type of event?
 For this example let's make an event that sends a GameObject as a value when invoked.
@@ -110,10 +110,10 @@ public class GameObjectEventSO : EventSO<GameObject>
 ```
 
 5. Now we can create our asset events that send GameObjects to listeners. We can also use buttons to invoke the events!
-![[Pasted image 20211226211605.png]]
+![](Images/GameObject%20Event%20BTN.png)
 
 ## Dependencies
 - TextMeshPro
 
 ## Images
-![[Demo Scene.png]]
+![](Images/Demo%20Scene.png.png)
