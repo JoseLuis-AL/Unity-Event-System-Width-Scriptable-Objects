@@ -1,4 +1,3 @@
-using Plugins.Event_System_SO.Scripts;
 using Plugins.Event_System_SO.Scripts.Base_Events;
 using TMPro;
 using UnityEngine;
@@ -9,9 +8,6 @@ namespace Plugins.Event_System_SO.DEMO.Scripts
     {
         // Events.
         [Header("Events (Listeners)")] [SerializeField]
-        private VoidEventSO voidEvent;
-
-        [SerializeField]
         private IntEventSO intEvent;
 
         [SerializeField]
@@ -30,24 +26,22 @@ namespace Plugins.Event_System_SO.DEMO.Scripts
         // Unity methods.
         private void OnEnable()
         {
-            voidEvent.RegisterListener(OnVoidEvent);
-            intEvent.RegisterListener(OnIntEvent);
-            floatEvent.RegisterListener(OnFloatEvent);
-            boolEvent.RegisterListener(OnFloatEvent);
-            stringEvent.RegisterListener(OnStringEvent);
+            intEvent.AddObserver(OnIntEvent);
+            floatEvent.AddObserver(OnFloatEvent);
+            boolEvent.AddObserver(OnFloatEvent);
+            stringEvent.AddObserver(OnStringEvent);
         }
 
         private void OnDisable()
         {
-            voidEvent.UnregisterListener(OnVoidEvent);
-            intEvent.UnregisterListener(OnIntEvent);
-            floatEvent.UnregisterListener(OnFloatEvent);
-            boolEvent.UnregisterListener(OnFloatEvent);
-            stringEvent.UnregisterListener(OnStringEvent);
+            intEvent.RemoveObserver(OnIntEvent);
+            floatEvent.RemoveObserver(OnFloatEvent);
+            boolEvent.RemoveObserver(OnFloatEvent);
+            stringEvent.RemoveObserver(OnStringEvent);
         }
 
         // Methods.
-        private void OnVoidEvent() => demoText.text = "Void Event";
+        public void OnVoidEvent() => demoText.text = "Void Event";
 
         private void OnIntEvent(int value) => demoText.text = $"Int event: {value}";
 

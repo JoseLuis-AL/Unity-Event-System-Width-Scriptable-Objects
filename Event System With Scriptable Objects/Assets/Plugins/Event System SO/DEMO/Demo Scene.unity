@@ -880,6 +880,7 @@ GameObject:
   - component: {fileID: 1089346849}
   - component: {fileID: 1089346848}
   - component: {fileID: 1089346852}
+  - component: {fileID: 1089346853}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -982,12 +983,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e96e1485fc6c2e4fb4cc32f8e0d3f33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voidEvent: {fileID: 11400000, guid: 1d464a9135e05d646aba1b4ee5f4e8e2, type: 2}
   intEvent: {fileID: 11400000, guid: 99d90e2865a861e4e81918c86be0a198, type: 2}
   floatEvent: {fileID: 11400000, guid: 3322f84e0f1979740ab76f05108340d6, type: 2}
   boolEvent: {fileID: 11400000, guid: 8622b37b3fb24d240a6a39deb0739661, type: 2}
   stringEvent: {fileID: 11400000, guid: eeb39f9af3751a1409910c74a7adb50b, type: 2}
   demoText: {fileID: 1846987225}
+--- !u!114 &1089346853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089346847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e14b968b888004084cc9486c11854b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voidEvent: {fileID: 11400000, guid: 1d464a9135e05d646aba1b4ee5f4e8e2, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1089346852}
+        m_TargetAssemblyTypeName: Plugins.Event_System_SO.DEMO.Scripts.DemoUI, Assembly-CSharp-firstpass
+        m_MethodName: OnVoidEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1267316782
 GameObject:
   m_ObjectHideFlags: 0

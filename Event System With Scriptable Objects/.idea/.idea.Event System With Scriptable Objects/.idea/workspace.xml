@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/Scripts/VoidEventObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/DEMO/Scripts/DemoUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/Scripts/Base Events/StringEventSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Event System SO/Scripts/VoidEventSO.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,6 +59,7 @@
       <workItem from="1640507027231" duration="789000" />
       <workItem from="1640548140497" duration="2255000" />
       <workItem from="1640566233929" duration="3196000" />
+      <workItem from="1640801934272" duration="3061000" />
     </task>
     <servers />
   </component>
