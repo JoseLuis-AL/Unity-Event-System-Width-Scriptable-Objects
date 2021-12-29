@@ -110,8 +110,8 @@ public class GameObjectEventSO : EventSO<GameObject>
 5. Now we can create our asset events that send GameObjects to listeners. We can also use buttons to invoke the events!  
 ![](Images/GameObject%20Event%20BTN.png)
 
-## Dependencies
-- TextMeshPro
-
 ## Images
 ![](Images/Demo%20Scene.png)
+
+## Dependencies
+- TextMeshPro
