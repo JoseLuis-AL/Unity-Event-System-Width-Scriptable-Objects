@@ -1,9 +1,9 @@
 # Unity Event System Width Scriptable Objects
 ---
 
-Link Demo: [Event System With Scriptable Objects (Unity Play)]([DEMO: Event System With Scriptable Objects - Unity Play](https://play.unity.com/mg/other/demo-event-system-with-scriptable-objects))
-Link to the project that implements this package: [The Brick Braker (Unity Play)]([The Brick Braker - Unity Play](https://play.unity.com/mg/other/the-brick-braker))
-Github: [The Brick Braker Github]([JoseLuis-AL/The-brick-braker (github.com)](https://github.com/JoseLuis-AL/The-brick-braker))
+Link Demo: [Event System With Scriptable Objects (Unity Play)](https://play.unity.com/mg/other/demo-event-system-with-scriptable-objects)  
+Link to the project that implements this package: [The Brick Braker (Unity Play)](https://play.unity.com/mg/other/the-brick-braker)  
+Github: [The Brick Braker Github](https://github.com/JoseLuis-AL/The-brick-braker)
 
 #### Blue Voxel Inside Team
 1. José Luis Aguilera Luzania
@@ -16,7 +16,7 @@ Github: [The Brick Braker Github]([JoseLuis-AL/The-brick-braker (github.com)](ht
 ## Observer Pattern
 Is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
-Please see: [Observer (refactoring.guru)](https://refactoring.guru/design-patterns/observer)for a full explanation.
+Please see: [Observer (refactoring.guru)](https://refactoring.guru/design-patterns/observer) for a full explanation.
 
 ## Content
 By default the package has five predefined events for data types: `void`, `int`, `float`, `bool`, `string`.
@@ -72,17 +72,17 @@ intEvent.Invoke(value);
 ```
 
 ### Create the event asset
-1. You can create event objects using the "Event SO" submenu in the create menu.
-![images/Assets Events SO.png]
+1. You can create event objects using the "Event SO" submenu in the create menu.  
+![](Images/Assets%20Events%20SO.png)
 
 
 1. Assign the asset in the fields of the component that listens or invokes. You can also invoke the event using a button.
 
-Invoke the event using a button.
-![[Int Event BTN.png]]
+Invoke the event using a button.  
+![](Images/Int%20Event%20BTN.png)
 
-Assign the assets to a script.
-![[Demo UI.png]]
+Assign the assets to a script.  
+![](Images/Demo%20UI.png)
 
 ## How to create a new type of event?
 For this example let's make an event that sends a GameObject as a value when invoked.
@@ -109,11 +109,11 @@ public class GameObjectEventSO : EventSO<GameObject>
 }
 ```
 
-5. Now we can create our asset events that send GameObjects to listeners. We can also use buttons to invoke the events!
-![[Pasted image 20211226211605.png]]
+5. Now we can create our asset events that send GameObjects to listeners. We can also use buttons to invoke the events!  
+![](Images/GameObject%20Event%20BTN.png)
 
 ## Dependencies
 - TextMeshPro
 
 ## Images
-![[Demo Scene.png]]
+![](Images/Demo%20Scene.png)
