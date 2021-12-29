@@ -46,7 +46,7 @@ private void OnInt(int value)
 ```C#
 private void OnEnable() 
 {
-	intEvent.RegisterListener(OnInt);
+	intEvent.AddObserver(OnInt);
 }
 ```
 
@@ -54,7 +54,7 @@ private void OnEnable()
 ```C#
 private void OnDisable()
 {
-	intEvent.UnregisterListener(OnInt);
+	intEvent.RemoveObserver(OnInt);
 }
 ```
 
