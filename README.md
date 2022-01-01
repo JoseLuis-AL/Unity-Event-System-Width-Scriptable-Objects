@@ -1,5 +1,4 @@
 # Unity Event System Width Scriptable Objects
----
 
 Link Demo: [Event System With Scriptable Objects (Unity Play)](https://play.unity.com/mg/other/demo-event-system-with-scriptable-objects)  
 
