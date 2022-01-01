@@ -8,8 +8,8 @@ Link Demo: [Event System With Scriptable Objects (Unity Play)](https://play.unit
 2. Ramón Antonio Sanchez Madrid
 
 ## Objetives
-- Crear un sistema de eventos fácil de usar y personalizable en Unity para eliminar las dependencias de referencias fuertes entre GameObjects.
-- Proveer de un tipo de evento génerico que pueda ser especializado para cualquier tipo de dato.
+- Create an easy-to-use and customizable event system in Unity to remove strong reference dependencies between GameObjects.
+- Provide a type of generic event that can be specialized for any type of data.
 
 ## Observer Pattern
 Is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
