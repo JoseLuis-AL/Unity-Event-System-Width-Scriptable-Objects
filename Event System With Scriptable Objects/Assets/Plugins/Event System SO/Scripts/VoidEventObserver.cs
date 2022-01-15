@@ -12,9 +12,9 @@ namespace Plugins.Event_System_SO.Scripts
         [SerializeField]
         private UnityEvent response;
 
-        private void OnEnable() => voidEvent.RegisterObserver(OnEventRaised);
+        private void OnEnable() => voidEvent.AddObserver(OnEventRaised);
 
-        private void OnDisable() => voidEvent.UnregisterObserver(OnEventRaised);
+        private void OnDisable() => voidEvent.RemoveObserver(OnEventRaised);
 
         private void OnEventRaised() => response.Invoke();
     }

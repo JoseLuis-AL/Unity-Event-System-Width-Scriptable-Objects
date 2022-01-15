@@ -10,8 +10,8 @@ namespace Plugins.Event_System_SO.Scripts
         
         public void Invoke() => _onRaiseEvent?.Invoke();
 
-        public void RegisterObserver(UnityAction call) => _onRaiseEvent.AddListener(call);
+        public void AddObserver(UnityAction call) => _onRaiseEvent.AddListener(call);
 
-        public void UnregisterObserver(UnityAction call) => _onRaiseEvent.RemoveListener(call);
+        public void RemoveObserver(UnityAction call) => _onRaiseEvent.RemoveListener(call);
     }
 }
