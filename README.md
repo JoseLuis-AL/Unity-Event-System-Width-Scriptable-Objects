@@ -1,17 +1,14 @@
 # Unity Event System Width Scriptable Objects
----
 
 Link Demo: [Event System With Scriptable Objects (Unity Play)](https://play.unity.com/mg/other/demo-event-system-with-scriptable-objects)  
-Link to the project that implements this package: [The Brick Braker (Unity Play)](https://play.unity.com/mg/other/the-brick-braker)  
-Github: [The Brick Braker Github](https://github.com/JoseLuis-AL/The-brick-braker)
 
 #### Blue Voxel Inside Team
 1. José Luis Aguilera Luzania
 2. Ramón Antonio Sanchez Madrid
 
 ## Objetives
-- Crear un sistema de eventos fácil de usar y personalizable en Unity para eliminar las dependencias de referencias fuertes entre GameObjects.
-- Proveer de un tipo de evento génerico que pueda ser especializado para cualquier tipo de dato.
+- Create an easy-to-use and customizable event system in Unity to remove strong reference dependencies between GameObjects.
+- Provide a type of generic event that can be specialized for any type of data.
 
 ## Observer Pattern
 Is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
@@ -46,7 +43,7 @@ private void OnInt(int value)
 ```C#
 private void OnEnable() 
 {
-	intEvent.RegisterListener(OnInt);
+	intEvent.AddObserver(OnInt);
 }
 ```
 
@@ -54,7 +51,7 @@ private void OnEnable()
 ```C#
 private void OnDisable()
 {
-	intEvent.UnregisterListener(OnInt);
+	intEvent.RemoveObserver(OnInt);
 }
 ```
 
@@ -112,8 +109,8 @@ public class GameObjectEventSO : EventSO<GameObject>
 5. Now we can create our asset events that send GameObjects to listeners. We can also use buttons to invoke the events!  
 ![](Images/GameObject%20Event%20BTN.png)
 
-## Dependencies
-- TextMeshPro
-
 ## Images
 ![](Images/Demo%20Scene.png)
+
+## Dependencies
+- TextMeshPro
